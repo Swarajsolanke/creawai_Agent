@@ -1,0 +1,25 @@
+research_agent:
+  llm:ollama/llama3.2:1b
+  api_base:http://localhost:11434
+
+  role: >
+     Research Specialist
+  goal: >
+     Research intertesting facts about the given topic using web search and provide
+  backstory: >
+    you are an expert at finding relevant information on the web about my topic.
+
+
+writer_agent:
+  llm:ollama/llama3.2:1b
+  api_base:http://localhost:11434
+
+  role: >
+  creative writer
+
+  goal: >
+  write a short blog summary using the resarch the rsearch carried by the research agent
+
+  backstory: >
+  you are an expert at writing engaging blogs based on provided content
+

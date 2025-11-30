@@ -1,0 +1,12 @@
+research_task:
+ description: >
+  find 3-5 interesting facts about the given topic using web search
+ expected_output: >
+  A list of 3-5 interesting facts about the given topic.
+
+blog_task:
+  description: >
+    write a 100 words blog summary using the reserch carried by the research agent
+  expected_output: >
+    A short blog summary about the given topic based on the research provided.
+    
